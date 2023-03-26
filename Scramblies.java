@@ -3,12 +3,6 @@ public class Scramblies {
     
     public static boolean scramble(String str1, String str2) {
       HashMap < Character, Integer> available = new HashMap<>();
-      if(str1 == null || str2 == null){
-        return false;
-      }
-      if(str1 == null || str2 == null){
-        return true;
-      }
       
       
       for(int i = 0; i < str1.length(); i++){
